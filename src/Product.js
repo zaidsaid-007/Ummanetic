@@ -2,7 +2,6 @@ import React from 'react'
 import './Product.css'
 
 
-
 function Product({id,category,title, image, price, rating}) {
   return (
     <div className='Product'>
@@ -18,7 +17,7 @@ function Product({id,category,title, image, price, rating}) {
             </div>
         </div>
         <img src={image} className='product_img' alt=''/>
-        <button className='zCart'>Add to Cart</button>
+        <button className='Cart'>Add to Cart</button>
         
 
     </div>

@@ -2,7 +2,7 @@
     height: 50px;
     display: flex;
     align-items: center;
-    background-color: #a37f1c;
+    background-color: #004c97;
     position: sticky;
     top: 0;
     bottom: 10pt;
@@ -48,11 +48,13 @@
     display: flex;
     flex: 1;
     align-items: center;
+    color: white;
 
 }
 .header_basketCount{
     margin-left: 10px;
     margin-right:10px;
+    color: white;
 }
 .Header_nav{
     display: flex;
@@ -64,6 +66,6 @@
     flex-direction: column;
     margin-left: 10px;
     margin-right: 10px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 
 }

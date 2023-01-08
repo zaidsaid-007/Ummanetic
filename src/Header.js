@@ -2,11 +2,12 @@ import React from 'react'
 import './Header.css'
 import SearchIcon from '@mui/icons-material/Search';
 import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
+import logo from '../src/Pics/logo.png'
 function Header() {
     return(
         <div className='Header'>
         <img className="Header_logo"
-            src='Umma.png'alt='umma logo' />
+            src={logo} alt='umma logo' />
         
         
 
@@ -47,7 +48,7 @@ function Header() {
                     Your
                 </span>
                 <span className='header_option_line_2'>
-                    Prime
+                    Account
                 </span>
 
             </div>
