@@ -7,8 +7,6 @@ function Header() {
         <div className='Header'>
         <img className="Header_logo"
             src='Umma.png'alt='umma logo' />
-        
-        
 
         <div className='Header_search'>
             <input className="Header_search input"
